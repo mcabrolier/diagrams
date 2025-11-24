@@ -1,0 +1,13 @@
+debt_id,product_id,criterion_id,current_score,target_score,gap,initiative,estimate_points,quarter_target,risk_level,status
+DR-0001,P001,OBS-01,1,4,3,Implement OpenTelemetry tracing,13,2025Q4,medium,in_progress
+DR-0002,P001,LEG-01,2,4,2,Migrate from legacy framework X to Y,34,2026Q1,high,planned
+DR-0003,P002,LEG-01,1,4,3,Refactor monolith module A,55,2026Q2,high,planned
+DR-0004,P002,DATA-01,1,4,3,Classify PII and onboard to data catalog,21,2025Q4,medium,in_progress
+DR-0005,P003,OPS-01,1,4,3,Define SLOs and error budget policy,8,2025Q4,medium,in_progress
+DR-0006,P003,SEC-01,2,4,2,Centralize secrets with Vault,20,2026Q1,high,planned
+DR-0007,P004,SEC-01,1,4,3,Implement secrets scanning and rotation,13,2025Q4,high,in_progress
+DR-0008,P004,OBS-01,1,4,3,Deploy tracing and log correlation,15,2026Q1,medium,planned
+DR-0009,P005,DATA-01,1,4,3,Implement PII tagging workflow,18,2025Q4,medium,in_progress
+DR-0010,P005,LEG-01,2,4,2,Sunset legacy ORM,25,2026Q1,medium,planned
+DR-0011,P001,SEC-01,2,4,2,Adopt centralized secrets management,16,2025Q4,high,done
+DR-0012,P004,COST-01,1,4,3,Apply FinOps tagging policy,5,2025Q4,low,done

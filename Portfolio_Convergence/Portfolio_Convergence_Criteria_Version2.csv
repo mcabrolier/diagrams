@@ -1,0 +1,9 @@
+criterion_id,domain,criterion_name,weight,target_level,automation_type,automation_source
+SEC-01,Security,Secrets management centralized and automated,2.0,4,automated,Secret scan in CI
+SEC-02,Security,Dependencies vulnerability scanning,1.5,4,automated,SCA in CI
+OBS-01,Observability,Distributed tracing with OpenTelemetry,1.2,4,automated,APM agent report
+DEL-01,Delivery,Standardized CI template and quality gates,1.0,4,automated,Pipeline metadata
+LEG-01,Legacy,Legacy framework usage reduced,1.8,4,automated,Static code analysis
+DATA-01,Data,PII classification in data catalog,1.2,4,manual,Data catalog stewardship
+OPS-01,Operations,SLOs defined and measured,1.3,4,manual,Monitoring review
+COST-01,Cost,FinOps tags coverage >= 95%,1.0,4,automated,Cloud CSPM
